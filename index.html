@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Futuro IPT Te Espera</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F9FA;
+            color: #212529;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1);
+        }
+        .accent-bg-blue { background-color: #4A90E2; }
+        .accent-text-blue { color: #4A90E2; }
+        .accent-bg-orange { background-color: #F5A623; }
+        .accent-text-orange { color: #F5A623; }
+        .gradient-bg {
+            background-image: linear-gradient(to right, #4A90E2, #78B0E8);
+            color: white;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="text-center py-12 px-4 gradient-bg shadow-md">
+        <div class="flex items-center justify-center flex-col sm:flex-row">
+            <!-- Logo oficial de la Aso Exa IPT, ahora con un tamaño mayor y redondeado -->
+            <img src="https://i.imgur.com/xfPQMzV.png" alt="Logo de la Aso Exa IPT" class="h-36 w-auto mb-4 sm:mb-0 sm:mr-4 rounded-full">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-black uppercase tracking-wide">Tu Futuro IPT Te Espera</h1>
+                <p class="mt-2 text-xl md:text-2xl font-bold">Conecta, Crece, Disfruta: ¿Qué te espera después del IPT?</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <section id="beneficios" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-2 accent-text-blue">¡La Aso Exa IPT es para vos!</h2>
+            <p class="text-lg text-center text-gray-700 max-w-3xl mx-auto mb-8">Somos la única Aso Exa IPT legalmente constituida, nacida con el fin primordial de unir generaciones, fortalecer lazos y potenciar el futuro de todos los exalumnos del IPT.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="card text-center">
+                    <span class="text-6xl mb-4">🤝</span>
+                    <h3 class="text-2xl font-bold accent-text-orange">¡Conectate!</h3>
+                    <p class="mt-2 text-gray-700">Amplía tu red profesional con cientos de exalumnos que ya trabajan en las mejores empresas del país. Es tu oportunidad para encontrar mentores y hacer contactos clave para tu carrera.</p>
+                </div>
+
+                <div class="card text-center">
+                    <span class="text-6xl mb-4">🚀</span>
+                    <h3 class="text-2xl font-bold accent-text-orange">¡Avanzá!</h3>
+                    <p class="mt-2 text-gray-700">En la Aso acompañamos a nuestros socios brindando oportunidades laborales, talleres y charlas impartidas por exalumnos. Te apoyamos en tus pasantías, la universidad o en tu primer empleo. Tu desarrollo profesional es nuestra prioridad.</p>
+                </div>
+
+                <div class="card text-center">
+                    <span class="text-6xl mb-4">🎉</span>
+                    <h3 class="text-2xl font-bold accent-text-orange">¡Disfrutá!</h3>
+                    <p class="mt-2 text-gray-700">No todo es trabajo. Organizamos encuentros de camaradería, torneos deportivos, celebraciones y eventos para que te reencuentres con tus compañeros y conozcas a nuevas personas.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="oferta" class="mb-16 text-center">
+            <div class="bg-gray-100 rounded-lg p-8 shadow-inner">
+                <h2 class="text-3xl md:text-4xl font-black accent-text-blue mb-4">OFERTA ESPECIAL</h2>
+                <p class="text-xl md:text-2xl font-bold text-gray-700">Para las promos <span class="accent-text-orange">2024</span> y <span class="accent-text-orange">2025</span></p>
+                <div class="my-6">
+                    <p class="text-5xl md:text-7xl font-black accent-text-orange">50%</p>
+                    <p class="text-3xl md:text-4xl font-bold text-gray-800">de Descuento en tu Primera Cuota Social anual</p>
+                    <p class="mt-2 text-2xl md:text-3xl font-black text-gray-900">¡Solo <span class="underline">50.000 Gs.</span>!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="instagram" class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4 accent-text-blue">¡Danos Follow en Instagram!</h2>
+            <p class="text-lg text-gray-600 mb-6">Para no perderte nada de lo que hacemos, seguí nuestra página. ¡Ahí te enterás de todos los eventos y beneficios!</p>
+            <a href="https://www.instagram.com/asoexaipt/" target="_blank" class="inline-block gradient-bg text-white font-bold py-4 px-8 rounded-full text-2xl uppercase shadow-lg hover:shadow-xl transition-shadow duration-300">
+                @asoexaipt
+            </a>
+        </section>
+        
+        <section id="asociate_y_contacto" class="text-center p-8 rounded-lg shadow-md bg-white">
+            <h2 class="text-3xl font-bold mb-4 accent-text-blue">¿Te interesa asociarte?</h2>
+            <p class="text-lg text-gray-700 mb-6">
+                Para asociarte, sigue los pasos en nuestro instructivo.
+                <br>
+                Cualquier duda, contáctanos directamente por WhatsApp.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <a href="https://bit.ly/comoasociarse" target="_blank" class="inline-block accent-bg-orange text-white font-bold py-3 px-6 rounded-full text-lg uppercase shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    Cómo asociarse
+                </a>
+                <a href="https://wa.link/78n1we" target="_blank" class="inline-block bg-green-500 text-white font-bold py-3 px-6 rounded-full text-lg uppercase shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    WhatsApp
+                </a>
+            </div>
+            <p class="mt-6 text-sm text-gray-600 font-semibold">
+                Importante: Avisa que eres de la promoción 2024 o 2025 para que te apliquemos el descuento.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="text-center text-gray-500 py-8 px-4 mt-12">
+        <p class="mt-2 text-sm">#SomosIPT #AsoExaIPT #FuturoConectado</p>
+    </footer>
+
+</body>
+</html>
